@@ -3,7 +3,7 @@ layout: post
 title: Large Deviations
 ---
 
-### In this post, I am going to give an introduction to Large Deviations, a theory for analyzing the probability of very rare events.  I am going to focus on why Large Deviations theory is useful in some situations where more standard probability is not. 
+_In this post, I am going to give an introduction to Large Deviations, a theory for analyzing the probability of very rare events.  I am going to focus on why Large Deviations theory is useful in some situations where more standard probability is not._ 
 
 Let's pretend that you are at a casino, and there is a game in which a player has a 20% chance of winning \\$1 and a 80% chance of winning nothing.  If the player plays the game 30 times, how likely is it that the player wins at least \\$24?  Surely the player winning at least \\$24 is very rare, since the player only has a 20% chance of winning anything on each turn.  But the casino owner might be interested in exactly how rare something like this is when deciding how much to for example charge for each round of the game.  
 
