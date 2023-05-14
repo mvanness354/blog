@@ -24,6 +24,8 @@ reducing internal covariate shift is not important for successful layer normaliz
 
 ## Preprints
 
+Interpretable Survival Analysis for Heart Failure Risk Prediction (Coming soon!)
+
 [The Missing Indicator Method: From Low to High Dimensions](https://arxiv.org/pdf/2211.09259.pdf)
 
 <details>
