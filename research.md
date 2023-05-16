@@ -6,27 +6,8 @@ permalink: /research/
 
 ## Publications
 
-[CDF Normalization for Controlling the Distribution
-of Hidden Nodes](https://proceedings.mlr.press/v163/ness22a/ness22a.pdf)
-
-**Venue**: I (Still) Can't Believe It's Not Better! Workshop at NeurIPS 2021
-
-<details>
-<summary><b>Abstract</b></summary>
-Batch Normalizaiton (BN) is a normalization method for deep neural networks
-that has been shown to accelerate training. While the effectiveness of BN is
-undisputed, the explanation of its effectiveness is still being studied. The original
-BN paper attributes the success of BN to reducing internal covariate shift, so we
-take this a step further and explicitly enforce a Gaussian distribution on hidden
-layer activations. This approach proves to be ineffective, demonstrating further that
-reducing internal covariate shift is not important for successful layer normalization.
-</details>
-
-## Preprints
-
-Interpretable Survival Analysis for Heart Failure Risk Prediction (Coming soon!)
-
 [The Missing Indicator Method: From Low to High Dimensions](https://arxiv.org/pdf/2211.09259.pdf)
+**Venue**: KDD 2023 Applied Data Science Track
 
 <details>
 <summary><b>Abstract</b></summary>
@@ -48,6 +29,26 @@ on real-world data science tasks, we demonstrate the effectiveness
 of MIM and SMIM on clinical tasks generated from the MIMIC-III
 database of electronic health records.
 </details>
+
+[CDF Normalization for Controlling the Distribution
+of Hidden Nodes](https://proceedings.mlr.press/v163/ness22a/ness22a.pdf)
+
+**Venue**: I (Still) Can't Believe It's Not Better! Workshop at NeurIPS 2021
+
+<details>
+<summary><b>Abstract</b></summary>
+Batch Normalizaiton (BN) is a normalization method for deep neural networks
+that has been shown to accelerate training. While the effectiveness of BN is
+undisputed, the explanation of its effectiveness is still being studied. The original
+BN paper attributes the success of BN to reducing internal covariate shift, so we
+take this a step further and explicitly enforce a Gaussian distribution on hidden
+layer activations. This approach proves to be ineffective, demonstrating further that
+reducing internal covariate shift is not important for successful layer normalization.
+</details>
+
+## Preprints
+
+Interpretable Survival Analysis for Heart Failure Risk Prediction (Coming soon!)
 
 [Cross-Frequency Time Series Meta-Forecasting](https://arxiv.org/pdf/2302.02077.pdf)
 
