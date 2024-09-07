@@ -8,7 +8,7 @@ Please reach out if you have any questions for me!
 
 ### Contact Information
 
-Email: mvanness@stanford.edu
+Email: mvanness354@gmail.com
 
 [LinkedIn Profile](https://www.linkedin.com/in/mike-van-ness-282048139/)
 
