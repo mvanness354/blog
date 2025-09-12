@@ -4,11 +4,88 @@ title: Research
 permalink: /research/
 ---
 
+Link to <a href="https://scholar.google.com/citations?user=rgwrYqIAAAAJ&hl=en&oi=ao">Google Scholar</a>
+
+During my PhD, I mainly focused on builting interpretable machine learning models for a variety of problems 
+in healthcare. Towards the beginning of my PhD, I focused more on problems related to missing data,
+which is common in my domains including healthcare. 
+Later in my PhD, I switched to developing techniques to train additive models for survival analysis.
+These models have the benefit of increased accuracy compared to linear models, but with
+more structural interpretability than black-box neural networks.
+In the last year of my PhD, I spent a lot of time developing <a href="https://dnamite.readthedocs.io/en/latest/">dnamite</a>,
+a Python package for training Neural Additive Models for regression, classification, and survival analysis.
+For a good overview of my PhD research, see my <a href="https://drive.google.com/file/d/1grB2yGueojADOtXQgo2EHfyV9enu57Qx/view?usp=sharing">PhD defense slides</a>.
+
 ## Publications
+
+[Interpretable Prediction and Feature Selection for Survival Analysis](https://arxiv.org/pdf/2404.14689)
+
+**Venue**: KDD 2025
+
+<details>
+<summary><b>Abstract</b></summary>
+
+Survival analysis is widely used as a technique to
+model time-to-event data when some data is censored,
+particularly in healthcare for predicting future patient
+risk. In such settings, survival models must be both accurate and interpretable so that users (such as doctors)
+can trust the model and understand model predictions.
+While most literature focuses on discrimination, interpretability is equally as important. A successful interpretable model should be able to describe how changing each feature impacts the outcome, and should only use a
+small number of features. In this paper, we present DyS
+(pronounced “dice”), a new survival analysis model that
+achieves both strong discrimination and interpretability.
+DyS is a feature-sparse Generalized Additive Model,
+combining feature selection and interpretable prediction
+into one model. While DyS works well for all survival
+analysis problems, it is particularly useful for large (in n
+and p) survival datasets such as those commonly found
+in observational healthcare studies. Empirical studies
+show that DyS competes with other state-of-the-art
+machine learning models for survival analysis, while
+being highly interpretable.
+
+</details>
+
+-----------------------------------------------------------------------------------
+
+[DNAMite: Interpretable Calibrated Survival Analysis with Discretized Additive Models](https://arxiv.org/pdf/2411.05923?)
+
+**Venue**: ML4H 2024
+
+<details>
+<summary><b>Abstract</b></summary>
+
+Survival analysis is a classic problem in statistics
+with important applications in healthcare. Most
+machine learning models for survival analysis are
+black-box models, limiting their use in healthcare settings where interpretability is paramount.
+More recently, glass-box machine learning models have been introduced for survival analysis,
+with both strong predictive performance and
+interpretability. Still, several gaps remain, as
+no prior glass-box survival model can produce
+calibrated shape functions with enough flexibility to capture the complex patterns often found
+in real data. To fill this gap, we introduce a
+new glass-box machine learning model for survival analysis called DNAMite. DNAMite uses
+feature discretization and kernel smoothing in
+its embedding module, making it possible to
+learn shape functions with a flexible balance of
+smoothness and jaggedness. Further, DNAMite
+produces calibrated shape functions that can
+be directly interpreted as contributions to the
+cumulative incidence function. Our experiments
+show that DNAMite generates shape functions
+closer to true shape functions on synthetic data,
+while making predictions with comparable predictive performance and better calibration than
+previous glass-box and black-box models.
+
+</details>
+
+-----------------------------------------------------------------------------------
+
 
 [Interpretable Survival Analysis for Heart Failure Risk Prediction](https://arxiv.org/pdf/2310.15472)
 
-**Venue**: ML4H 2024
+**Venue**: ML4H 2023
 
 <details>
 <summary><b>Abstract</b></summary>
@@ -77,6 +154,25 @@ reducing internal covariate shift is not important for successful layer normaliz
 -----------------------------------------------------------------------------------
 
 ## Preprints
+
+[dnamite: A Python Package for Neural Additive Models](https://arxiv.org/pdf/2503.07642)
+
+<details>
+<summary><b>Abstract</b></summary>
+Additive models offer accurate and interpretable predictions for tabular data, a critical
+tool for statistical modeling. Recent advances in Neural Additive Models (NAMs) allow
+these models to handle complex machine learning tasks, including feature selection and
+survival analysis, on large-scale data. This paper introduces dnamite, a Python package
+that implements NAMs for these advanced applications. dnamite provides a scikit-learn
+style interface to train regression, classification, and survival analysis NAMs, with built-
+in support for feature selection. We describe the methodology underlying dnamite, its
+design principles, and its implementation. Through an application to the MIMIC III clin-
+ical dataset, we demonstrate the utility of dnamite in a real-world setting where feature
+selection and survival analysis are both important. The package is publicly available via
+pip and documented at dnamite.readthedocs.io.
+</details>
+
+-----------------------------------------------------------------------------------
 
 [Interpretable Prediction and Feature Selection for Survival Analysis](https://arxiv.org/pdf/2404.14689)
 
